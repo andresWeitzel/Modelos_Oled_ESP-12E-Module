@@ -18,3 +18,16 @@
 * [Tutorial Subir Modelo a Placa NodeMCU](https://www.youtube.com/watch?v=QCgqhYcRBys)
 * Resultado Esperado 
 ![Index app](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/blob/master/modelos/ImgBMP/doc/asimovExample.jpeg)
+
+
+
+</br>
+
+### Doc Oficial Examples, Code, etc
+* [PlatformIO](https://docs.platformio.org/en/latest/)
+* [NodeMCU](https://nodemcu.readthedocs.io/en/release/)
+* [MobileNET v1](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md)
+
+### Doc No Oficial Examples, Code, etc
+* [Display Oled Arquitectura](https://lastminuteengineers.com/oled-display-arduino-tutorial/)
+* [Ejemplos Oled](https://programarfacil.com/blog/arduino-blog/ssd1306-pantalla-oled-con-arduino/)
