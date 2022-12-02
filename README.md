@@ -26,7 +26,6 @@
 ### Doc Oficial Examples, Code, etc
 * [PlatformIO](https://docs.platformio.org/en/latest/)
 * [NodeMCU](https://nodemcu.readthedocs.io/en/release/)
-* [MobileNET v1](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md)
 
 ### Doc No Oficial Examples, Code, etc
 * [Display Oled Arquitectura](https://lastminuteengineers.com/oled-display-arduino-tutorial/)
