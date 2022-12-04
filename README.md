@@ -14,7 +14,7 @@
 </br>
 
 
-## Modelo Generación de Imágen Monocromática Formato BMP
+## Modelo Generación de Imagen Monocromática Formato BMP
 * [Modelo Implementado](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/tree/master/modelos/ImgBMP
 )
 * [Herramienta de Conversión](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/tree/master/herramientas)
