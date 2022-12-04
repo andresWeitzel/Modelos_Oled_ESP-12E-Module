@@ -4,6 +4,7 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include "models/crecPlanta01.cpp"
+#include "utils/display.cpp"
 
 // Definir constantes
 #define ANCHO_PANTALLA 128 // ancho pantalla OLED
@@ -31,7 +32,7 @@ void setup()
       ;
   }
 
- 
+
   display.clearDisplay();
 
   display.drawBitmap(0, 0, crecPlanta01, 128, 64, SSD1306_WHITE);
