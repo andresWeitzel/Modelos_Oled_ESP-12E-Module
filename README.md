@@ -15,9 +15,9 @@
 
 
 ## Modelo Generación de Imágen Monocromática Formato BMP
-* La herramienta de conversión implementada se encuentra en el directorio  `herramientas`
 * [Modelo Implementado](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/tree/master/modelos/ImgBMP
 )
+* [Herramienta de Conversión](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/tree/master/herramientas)
 * [Tutorial Subir Modelo a Placa NodeMCU](https://www.youtube.com/watch?v=QCgqhYcRBys)
 * Resultado Esperado 
 ![Index app](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/blob/master/modelos/ImgBMP/doc/asimovExample.jpeg)
