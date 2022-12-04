@@ -32,7 +32,8 @@
 
 ### Doc No Oficial Examples, Code, etc
 * [Display Oled Arquitectura](https://lastminuteengineers.com/oled-display-arduino-tutorial/)
-* [Ejemplos Oled](https://programarfacil.com/blog/arduino-blog/ssd1306-pantalla-oled-con-arduino/)
+* [Ejemplos Oled](https://lastminuteengineers.com/oled-display-arduino-tutorial/)
+* [Otros Ejemplos Oled](https://programarfacil.com/blog/arduino-blog/ssd1306-pantalla-oled-con-arduino/)
 * [Instalación Plugin PlatformIO](https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/)
 
 
