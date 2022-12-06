@@ -13,15 +13,21 @@
 
 </br>
 
-
-## Modelo Generación de Imagen Monocromática Formato BMP
-* [Modelo Implementado](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/tree/master/modelos/ImgBMP
+## 01) Modelo Generación de Imagen Monocromática Formato BMP
+* [Modelo Desarrollado](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/tree/master/modelos/ImgBMP
 )
 * [Herramienta de Conversión](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/tree/master/herramientas)
 * [Tutorial Subir Modelo a Placa NodeMCU](https://www.youtube.com/watch?v=QCgqhYcRBys)
 * Resultado Esperado 
 ![Index app](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/blob/master/modelos/ImgBMP/doc/asimovExample.jpeg)
 
+</br>
+
+## 02) Modelo Secuencias de Imágenes Formato BMP
+* [Modelo Desarrollado](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/tree/master/modelos/SecuenciaImg
+)
+* Resultado Esperado 
+![Index app](https://github.com/andresWeitzel/Modelos_Oled_ESP-12E-Module/blob/master/modelos/SecuenciaImg/doc/20221205_223024.gif)
 
 
 </br>
