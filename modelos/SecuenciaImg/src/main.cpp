@@ -5,7 +5,9 @@
 #include <Adafruit_SSD1306.h>
 #include "models/plantGrowth01.cpp"
 #include "models/plantGrowth02.cpp"
-#include "utils/display.cpp"
+#include "models/plantGrowth03.cpp"
+#include "models/plantGrowth04.cpp"
+#include "models/plantGrowth05.cpp"
 
 // Definir constantes
 #define ANCHO_PANTALLA 128 // ancho pantalla OLED
@@ -16,36 +18,45 @@ Adafruit_SSD1306 display(ANCHO_PANTALLA, ALTO_PANTALLA, &Wire, -1);
 
 void setup()
 {
-#ifdef __DEBUG__
-  Serial.begin(9600);
-  delay(100);
-  Serial.println("Iniciando pantalla OLED");
-#endif
 
   // Iniciar pantalla OLED en la dirección 0x3C
-  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C))
-  {
-#ifdef __DEBUG__
-    Serial.println("No se encuentra la pantalla OLED");
-#endif
-    while (true)
-      ;
-  }
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
 
-  for (int i=0;i<5;i++)
+  for (int i = 0; i < 5; i++)
   {
+
     display.clearDisplay();
 
     display.drawBitmap(0, 0, plantGrowth01, 128, 64, SSD1306_WHITE);
     display.display();
-    delay(1000);
+    delay(500);
 
     display.clearDisplay();
 
     display.drawBitmap(0, 0, plantGrowth02, 128, 64, SSD1306_WHITE);
     display.display();
+    delay(500);
+
+    display.clearDisplay();
+
+    display.drawBitmap(0, 0, plantGrowth03, 128, 64, SSD1306_WHITE);
+    display.display();
+    delay(500);
+
+    display.clearDisplay();
+
+    display.drawBitmap(0, 0, plantGrowth04, 128, 64, SSD1306_WHITE);
+    display.display();
+    delay(500);
+
+    display.clearDisplay();
+
+    display.drawBitmap(0, 0, plantGrowth05, 128, 64, SSD1306_WHITE);
+    display.display();
     delay(1000);
   }
 }
 
-void loop() {}
+void loop()
+{
+}
