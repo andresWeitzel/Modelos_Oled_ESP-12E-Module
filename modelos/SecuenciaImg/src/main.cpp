@@ -3,7 +3,8 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#include "models/crecPlanta01.cpp"
+#include "models/plantGrowth01.cpp"
+#include "models/plantGrowth02.cpp"
 #include "utils/display.cpp"
 
 // Definir constantes
@@ -12,7 +13,6 @@
 
 // Objeto de la clase Adafruit_SSD1306
 Adafruit_SSD1306 display(ANCHO_PANTALLA, ALTO_PANTALLA, &Wire, -1);
-
 
 void setup()
 {
@@ -32,18 +32,20 @@ void setup()
       ;
   }
 
+  for (int i=0;i<5;i++)
+  {
+    display.clearDisplay();
 
-  display.clearDisplay();
+    display.drawBitmap(0, 0, plantGrowth01, 128, 64, SSD1306_WHITE);
+    display.display();
+    delay(1000);
 
-  display.drawBitmap(0, 0, crecPlanta01, 128, 64, SSD1306_WHITE);
-  display.display();
+    display.clearDisplay();
 
-   
-  display.clearDisplay();
-  delay(1000);
-
-  display.drawBitmap(0, 0, crecPlanta01, 128, 64, SSD1306_WHITE);
-  display.display();
+    display.drawBitmap(0, 0, plantGrowth02, 128, 64, SSD1306_WHITE);
+    display.display();
+    delay(1000);
+  }
 }
 
 void loop() {}
